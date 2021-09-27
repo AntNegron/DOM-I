@@ -56,6 +56,34 @@ const navLink6 = document.querySelector('nav a:nth-child(6)');
 navLink6.textContent = siteContent['nav'] ['nav-item-6'];
 
 
+// add new content
+const newLink1 = document.createElement('a');
+newLink1.textContent = 'Education';
+newLink1.href = '#';
+document.querySelector('nav').appendChild(newLink1);
+const newLink2 = document.createElement('a');
+newLink2.textContent = 'Home';
+newLink2.href = '#';
+document.querySelector('nav').prepend(newLink2);
+
+const navBar = document.querySelector('nav a');
+navBar.style.color = 'green';
+const nav1 = navBar.nextElementSibling;
+nav1.style.color = 'green';
+const nav2 = nav1.nextElementSibling;
+nav2.style.color = 'green';
+const nav3 = nav2.nextElementSibling;
+nav3.style.color = 'green';
+const nav4 = nav3.nextElementSibling;
+nav4.style.color = 'green';
+const nav5 = nav4.nextElementSibling;
+nav5.style.color = 'green';
+const nav6 = nav5.nextElementSibling;
+nav6.style.color = 'green';
+const nav7 = nav6.nextElementSibling;
+nav7.style.color = 'green';
+
+
 
 // cta update
 const ctaImg = document.querySelector('#cta-img');
